@@ -1,0 +1,42 @@
+h1 {
+    color: black;
+    font-family: Georgia;
+}
+h2 {
+    font-family:'Gill Sans';
+    font-weight: bold;
+}
+#navbar{
+    height: 100px;
+    background-color: grey;
+}
+
+.navbar-toggle{
+    margin-top: 35px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: black 1px solid;
+}
+.navbar-nav>li>a{
+    background-color: white;
+}
+.menu-tile{
+    background-color: grey;
+    font-family: 'Cambria';
+    height: 500px;
+}
+
+.menu-tile-information{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #navbar{
+        height: auto;
+    }
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
